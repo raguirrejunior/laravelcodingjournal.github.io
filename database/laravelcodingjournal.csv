@@ -1,0 +1,8 @@
+id,type,details,actiontaken,created_at,updated_at
+2,Thoughts,"My first thoughts","My first thoughts actions","2022-01-01 00:56:57","2022-01-01 00:56:57"
+3,Task,"My second task","My f2nd task actions","2022-01-01 00:57:22","2022-01-01 00:57:22"
+4,Task,"Task3 details","Task3 actions","2022-01-01 00:57:53","2022-01-01 00:57:53"
+5,Task,"Task4 details","Task4 actions","2022-01-01 00:58:57","2022-01-01 00:58:57"
+6,Task,"Task5 details","Task5 actions","2022-01-01 00:59:08","2022-01-01 00:59:08"
+7,Thoughts,"Thoughts3 details","Thoughts3 actions","2022-01-01 00:59:30","2022-01-01 00:59:30"
+11,Task,"Say Hi to Neliza","Done saying Hi :)","2022-01-01 01:16:34","2022-01-01 01:16:34"

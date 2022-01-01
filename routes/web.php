@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TaskThoughtsController;
-use App\Models\TaskThoughts;
+// use App\Models\TaskThoughts;
 
 Route::resource('taskthoughts', TaskThoughtsController::class);
 
