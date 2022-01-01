@@ -28,21 +28,20 @@
                             @csrf
                                 @method('PATCH') 
                                 <label for="type">Type:</label>
-                                <select class="form-select" aria-label="Default select example" name="type" id="type" value="{{$taskthoughts->type}}" >
+                                <select class="form-select" aria-label="Default select example" name="type" id="type">
                                 <!-- <select class="form-select form-control" aria-label="Default select example" name="type" id="type" > -->
                                 <!-- <option selected>Select Type from the List</option> -->
                                 <option value="Task">Task</option>
                                 <option value="Thoughts">Thoughts</option>
                                 </select>
-                                </select>
                         </div><br>
                         <div class="form-group"></div>
                                 <label for="details">Details:</label>
-                                <textarea class="form-control" name="details" id="details" cols="30" rows="4" value="{{$taskthoughts->details}}" ></textarea><br>
+                                <textarea class="form-control" name="details" id="details" cols="30" rows="4">{{$taskthoughts->details}}</textarea><br>
                         </div>
                         <div class="form-group"></div>
                                 <label for="actiontaken">Action Taken:</label>
-                                <textarea class="form-control" name="actiontaken" id="actiontaken" cols="30" rows="4" value="{{$taskthoughts->actiontaken}}"></textarea>
+                                <textarea class="form-control" name="actiontaken" id="actiontaken" cols="30" rows="4">{{$taskthoughts->actiontaken}}</textarea>
                         </div>
                         <div class="form-group">
                             <button class="btn btn-block btn-danger form-control" type="submit" onsubmit="">Update Task/Thoughts</button><br>
