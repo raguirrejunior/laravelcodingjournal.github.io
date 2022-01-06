@@ -31,8 +31,8 @@
                                 <select class="form-select" aria-label="Default select example" name="type" id="type">
                                 <!-- <select class="form-select form-control" aria-label="Default select example" name="type" id="type" > -->
                                 <!-- <option selected>Select Type from the List</option> -->
-                                <option value="Task">Task</option>
-                                <option value="Thoughts">Thoughts</option>
+                                <option <?php if (isset($taskthoughts->type) && $taskthoughts->type=="Task") echo "selected";?> value="Task">Task</option>
+                                <option <?php if (isset($taskthoughts->type) && $taskthoughts->type=="Thoughts") echo "selected";?> value="Thoughts">Thoughts</option>
                                 </select>
                         </div><br>
                         <div class="form-group"></div>
